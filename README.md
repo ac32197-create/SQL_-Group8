@@ -12,6 +12,7 @@ Group 8-  E-Sports Tournament Organizer
 ## Scenario Description
 
 ## Data Model
+<img width="1213" height="1028" alt="image" src="https://github.com/user-attachments/assets/165dbc05-caaa-4b05-a566-308440b14511" />
 
 ## Data Dictionary
 
