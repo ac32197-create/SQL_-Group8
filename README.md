@@ -7,3 +7,14 @@ Group 8-  E-Sports Tournament Organizer
 3. Henry Joiner
 4. Faaris Rana
 5. Matthew Watson
+
+
+## Scenario Description
+
+## Data Model
+
+## Data Dictionary
+
+## Queries
+
+## Database Information
