@@ -2,11 +2,11 @@
 ## Team Name:
 Group 8-  E-Sports Tournament Organizer
 ## Team Members
-1. Jason Bui
+1. Jason Bui [@jasonbui](https://github.com/jjayyan)
 2. Angel Chen [@angelchen](https://github.com/ac32197-create)
 3. Henry Joiner[@hankjoiner](https://github.com/HankJoiner)
-4. Faaris Rana []
-5. Matthew Watson
+4. Faaris Rana [@faarisrana](https://github.com/Faariscodes)
+5. Matthew Watson[@matthewwatson](https://github.com/mattwaa)
 
 
 ## Scenario Description
