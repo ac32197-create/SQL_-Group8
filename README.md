@@ -32,4 +32,12 @@ Finally, the database tracks the venues for each tournament and when these venue
 <img width="782" height="687" alt="image" src="https://github.com/user-attachments/assets/27c31888-4410-42d3-92d7-72d20d840f1f" />
 
 Query #1 allows managers to view which teams have been most successful and least successful across numerous past tournaments and the matches they have participated in. This can help managers decide the original seedings entering the tournament, as the teams with the best aggregate records should be seeded higher than those who have performed poorly. This helps the tournament management set the bracket for the tournament, rewarding those teams who have historically performed well. Additionally, if a team is consistently at the bottom of the standings table, tournament organizers can decide to exclude them from future tournaments, opening spots for newly established teams.
+
+
+2) Query #2 returns a list of players on a given team who have more years of experience than the average years of experience on their team. It also showcases which team these experienced players are on.
+<img width="1002" height="782" alt="image" src="https://github.com/user-attachments/assets/71506858-3c89-42fd-9b16-119f4e7b3a03" />
+
+Query #2 allows tournament organizers to view which players in their tournament have the most experience playing videogames at the professional level. This can help these tournament organizers determine marketing campaigns, as they will often market players that are well known and well established in the video game space. Additionally, combining this with the standings table in Query #1, tournament organizers can determine which players specifically have contributed to long term success of well-performing teams, further reinforcing which players they should label as the "star" of their tournament.
+
+
 ## Database Information
