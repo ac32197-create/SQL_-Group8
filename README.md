@@ -22,6 +22,14 @@ Finally, the database tracks the venues for each tournament and when these venue
 
 
 ## Data Model
+The central entity of our data model is the Tournament entity used to store the list of tournaments and their status. The tournament entity is connected to the Seasons entity to show the time at which the tournament is taking place. The Stages entity represent the levels in which the games are being played at in the season. Since there are many games that happen within the Season, the Match entity was created as the associative entity to show the games that are taking place. In order to show the actual teams that are playing within the matches, the teams entity is connected to matches through an associative entity called Teams_In_Matches.
+
+One team has multiple players but the players can only belong to one team at a time which is represented but the one to many relationship. This also applies to the Coaches entity. The teams entity has a many to many relationship with tournaments to show which teams are competing at the exact tournaments.
+
+Tournaments has a one to one relationship with PrizePool because one tournament only has one prize pool. Prize pool is connected with sponsors to allow sponsors to analyze how much money they've contributed to the pool and the results of their investment. Sponsors can sponsor many teams and a team has many sponsors so the many to many realtionship is formed and forming the TeamSponsor entity. To show which sponsor is sponsoring a tournament, another man to many relationship is formed and is shown through thr TournamentSponsor entity.
+
+The last part of the data model is a many to many relationship with tournament to venues to show where locations of the available are loacted. The assocative entity, TournamentVenue, shows the location and time of when the specific tournament will take place at.
+
 <img width="960" height="1190" alt="image" src="https://github.com/user-attachments/assets/b8a31c6e-0656-4aec-9ecd-c07d14cec222" />
 
 ## Data Dictionary
