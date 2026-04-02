@@ -26,6 +26,8 @@ Finally, the database tracks the venues for each tournament and when these venue
 
 ## Data Dictionary
 
+
 ## Queries
+<img width="782" height="687" alt="image" src="https://github.com/user-attachments/assets/27c31888-4410-42d3-92d7-72d20d840f1f" />
 
 ## Database Information
