@@ -41,7 +41,7 @@ Query #2 allows tournament organizers to view which players in their tournament 
 
 
 3) Query #3 uses a left join on the Venues and TournamentVenues tables combined with a NOT EXISTS clause to determine which venues have not hosted a tournament and the city they are located in.
-<img width="1141" height="329" alt="image" src="https://github.com/user-attachments/assets/a95deca1-4acd-4ada-9664-6276afc97717" />
+<img width="1146" height="330" alt="image" src="https://github.com/user-attachments/assets/ceb12302-8824-4205-b796-f701614b9971" />
 
 Query #3 lets tournament managers to clearly see which venues are suitable to host a tournament event but have not been granted the opportunity to. This then allows managers to dive into why these venues have yet to host an event. Organizers can investigate the city itself, determining the size of the fan base that is present in said cities and the quality of the facilities that are located there. As a result, after this analysis, tournament organizers can plan upcoming events to expand to these cities and venues that have yet to host a tournament in order to tap in to new markets.
 
