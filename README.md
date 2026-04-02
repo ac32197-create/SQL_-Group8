@@ -32,18 +32,18 @@ Finally, the database tracks the venues for each tournament and when these venue
 |tournamentName|name of tournament|VARCHAR(45)||
 |numberOfTeams|# of teams per tournament|INT||
 |tournamentStatus|status of tournament|VARCHAR(45)||
-|||||
+|--||||
 |Stages|
 |stageID|unique stage ID|INT|PK|
 |stageName|name of stage level|VARCHAR(45)||
 |stageNumber|stage sequential order|INT||
-|||||
+|--||||
 |Matches|
 |matchID|unique match ID|INT|PK|
 |matchGame|current videogame title|VARCHAR(45)||
 |seasonID|connects the match to the unique season|INT|FK|
 |stageID|connects the match to the unique stage|INT|FK|
-|||||
+|--||||
 |Season|
 |seasonID|unique season ID|INT|PK|
 |name|season term|VARCHAR(45)||
@@ -51,30 +51,30 @@ Finally, the database tracks the venues for each tournament and when these venue
 |startDate|season start date|DATETIME||
 |endDate|season end date|DATETIME||
 |tournamentID|connects the season to the unique tournament|INT|FK|
-|||||
+|--||||
 |Sponsor|
 |sponsorID|unique sponsor ID|INT|PK|
 |sponsorAmount|amount of money invested by sponsor|DECIMAL(12,2)||
 |sponsorROI|return on investment for the sponsor|DECIMAL(12,2)||
 |prizepoolID|unique prize pool ID|INT|FK|
-|||||
+|--||||
 |PrizePool|
 |prizepoolID|unique prizepool ID|INT|PK|
 |tierlevel|reward level granted to winners|VARCHAR(45)||
 |amount|amount of money per tie|DECIMAL(12,2)||
 |Tournament_tournmentID|connects the prize pool to the unique tournament|INT|FK|
-|||||
+|--||||
 |TeamSponsor|
 |sponsorID|connects the unique sponsor ID to the unique team ID|INT|PK FK|
 |teamID|connects the unique team ID to the unique sponsor ID|INT|PK FK|
-|||||
+|--||||
 |TournamentSponsor|
 |sponsorID|connects the unique sponsor ID to the unique tournament ID|INT|PK FK|
 |tournmentID|connects the unique tournament ID to the unique sponsor ID|INT|PK FK|
 |year|year in which this sponsor funded the tournament|INT||
 |startDate|start date of when the sponsor began funding the tournament|DATETIME||
 |endDate|end date of when the sponsor stopped funding the tournament|DATETIME||
-|||||
+|--||||
 |Teams|
 |teamID|unique team ID|INT|PK|
 |teamName|title of the team|INT||
@@ -82,7 +82,7 @@ Finally, the database tracks the venues for each tournament and when these venue
 |losses|total losses of the team|INT||
 |totalTournamentsPlayed|total tournaments the team has played in|INT||
 |city|hometown of the team|VARCHAR(45)||
-|||||
+|--||||
 |Players|
 |playerID|unique player ID|INT|PK|
 |playerFirstName|first name of player|VARCHAR(45)||
@@ -90,23 +90,23 @@ Finally, the database tracks the venues for each tournament and when these venue
 |age|age of the player|INT||
 |yearsOfExperience|total years of experience of the player|INT||
 |teamID|connects the player to their unique team|INT|FK|
-|||||
+|--||||
 |Coach|
 |coachID|unique coach ID|INT|PK|
 |coachName|name of the coach|VARCHAR(45)||
 |yearsOfExperience|years of experience for the coach|INT||
 |teamID|connects the coach to their unique team|INT|FK|
-|||||
+|--||||
 |Teams_In_Match|
 |matchID|connects teams to the unique match ID|INT|PK FK|
 |teamID|connects the matches to the unique team ID|INT|PK FK|
 |score|score of the match between two specific teams|INT||
 |outcome|win or loss for each team in the match|VARCHAR(10)||
-|||||
+|--||||
 |Teams_in_Tournament|
 |tournamentID|connects the unique tournament ID|INT|PK FK|
 |teamID|connects the unique team ID|INT|PK FK|
-|||||
+|--||||
 |Venues|
 |venueID|unique venue ID|INT|PK|
 |venueCity|city in which the venue is located|VARCHAR(45)||
@@ -114,7 +114,7 @@ Finally, the database tracks the venues for each tournament and when these venue
 |venueCountry|country in which the venue is located|VARCHAR(45)||
 |venueName|title of the venue|VARCHAR(45)||
 |venueCapacity|the max capacity of the venue|INT||
-|||||
+|--||||
 |TournamentVenue|
 |tournamentID|connects the venue to the tournament|INT|PK FK|
 |venueID|connects the tournament to the venue|INT|PK FK|
