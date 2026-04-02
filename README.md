@@ -33,12 +33,12 @@ Finally, the database tracks the venues for each tournament and when these venue
 |numberOfTeams|# of teams per tournament|INT||
 |tournamentStatus|status of tournament|VARCHAR(45)||
 |||||
-|Stage|
+|Stages|
 |stageID|unique stage ID|INT|PK|
 |stageName|name of stage level|VARCHAR(45)||
 |stageNumber|stage sequential order|INT||
 |||||
-|Match|
+|Matches|
 |matchID|unique match ID|INT|PK|
 |matchGame|current videogame title|VARCHAR(45)||
 |seasonID|connects the match to the unique season|INT|FK|
