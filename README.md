@@ -46,4 +46,9 @@ Query #2 allows tournament organizers to view which players in their tournament 
 Query #3 lets tournament managers to clearly see which venues are suitable to host a tournament event but have not been granted the opportunity to. This then allows managers to dive into why these venues have yet to host an event. Organizers can investigate the city itself, determining the size of the fan base that is present in said cities and the quality of the facilities that are located there. As a result, after this analysis, tournament organizers can plan upcoming events to expand to these cities and venues that have yet to host a tournament in order to tap in to new markets.
 
 
+4) Query #4 establishes various tiers for sponsorship amounts, namely Platinum, Gold, Silver, and Bronze for contributions to a single tournamnet. The query uses a CASE-WHEN statement to label sponsors by their sponsorship tier, ordering the results by largest donors to smallest donors.
+<img width="1102" height="800" alt="image" src="https://github.com/user-attachments/assets/54e18cfe-88ed-4940-9ca6-a0e59ca4494d" />
+
+Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournamnets, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
+
 ## Database Information
