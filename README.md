@@ -181,7 +181,12 @@ Simple Query #7 allows teams and or sponsers to see which players exceed the res
 
 Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from ordered alphabetically by last names. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
 
-9) 
+9) Complex Query #9 uses an EXIST clause to return teams whose home city is also a city that holds a venue that could potentially host an event
+<img width="863" height="621" alt="image" src="https://github.com/user-attachments/assets/05cd6d71-6f84-4630-907a-73a4b6b0ef38" />
+
+Complex Query #9 allows tournament managers to view which teams have home cities that also hold venues that can host an event. This can help organizers plan out future tournaments, as they would not want to continually provide a team with an advantage by hosting a tournament in their home city more than once. Additionally, the organizers could potentially choose to reward teams who are atop of the standings table by essentially giving them a home field advantage. Finally, it can help structure marketing campaigns, as you would most likely want to heavily market the host city's team to attract local viewership.
+
+
 10) Simple Query #10 uses a join on the Matches and Season tables and a join on Season and Stages tables to determine which matches fall into which season, and which season falls into which stage.
 <img width="853" height="474" alt="Screenshot 2026-04-03 at 10 35 23 AM" src="https://github.com/user-attachments/assets/d5dda2c0-645d-4412-aea5-f484872f357e" />
 
