@@ -159,7 +159,14 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
-7) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
+6) Simple Query #5 gives results on the teams that gives their different sponsors a ROI that is greater than 1.5
+<img width="1152" height="852" alt="image" src="https://github.com/user-attachments/assets/f01bc516-b73c-4853-b68e-82599e0e2bcc" />
+
+8) 
+
+9)
+
+10) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
 <img width="619" height="474" alt="Screenshot 2026-04-03 at 10 32 30 AM" src="https://github.com/user-attachments/assets/f432aa78-4e13-48dc-b875-c6bc7739afef" />
 
 
