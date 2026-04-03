@@ -10,6 +10,10 @@ Group 8-  E-Sports Tournament Organizer
 
 
 ## Scenario Description
+As a whole, our scenario revolves around the organization of eSports tournaments. These tournaments, similar to any other sporting event, have teams, matches, prize pools, and much more. These events draw in massive amounts of fans, whether it be virtual or attending a live event. Overall, our goal is to construct a database that allows tournament managers not only to track the status of current and/or past events, but to also help these organizers analyze data necessary to plan future tournaments.
+
+Within these tournaments, we defined the two main parties that the organizer must satisfy are the teams themselves and the sponsors who contribute money to the prize pool. We wanted to construct the data model in a way that allows tournamnet managers to have detailed records of both of these parties, allowing these organizers to plan tournaments that can be of benefit to both sides.
+
 Our database captures the relationships within an eSports organization. The database allows organizations to track all aspects of tournaments. These include ways to track the progress of each team within the tournament. 
 
 Tracking for matches follows the structure of matches, stages, seasons, tournaments. This allows the user to view the outcomes of all levels of the path to the final tournament. 
