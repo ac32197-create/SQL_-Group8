@@ -169,10 +169,10 @@ Simple Query #7 allows teams and or sponsers to see which players exceed the res
 <img width="436" height="536" alt="Screenshot 2026-04-03 at 10 34 19 AM" src="https://github.com/user-attachments/assets/396e55cb-9ac1-4fa4-a8af-95360023347f" />
 
 
-Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
+Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from ordered alphabetically by last names. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
 
 9) Simple Query #9 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
-<img width="563" height="422" alt="Screenshot 2026-04-03 at 10 34 59 AM" src="https://github.com/user-attachments/assets/f457b5ad-5a93-4b46-bb83-e58128001f1d" />
+<img width="870" height="892" alt="image" src="https://github.com/user-attachments/assets/36f1f2a3-917f-4857-98e7-5a8d15404d1d" />
 
 
 Simple Query #9 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
