@@ -156,22 +156,26 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
 7) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
-<img />
+<img width="619" height="474" alt="Screenshot 2026-04-03 at 10 32 30 AM" src="https://github.com/user-attachments/assets/f432aa78-4e13-48dc-b875-c6bc7739afef" />
+
 
 Simple Query #7 allows teams and or sponsers to see which players exceed the rest of the competition with 10 wins. This allows teams to see which players to draft and recruit for the next season, and sponsers to figure out which players or teams deserve their sponsership.
 
 8) Simple Query #8 uses a join on the Players and Teams tables to return a list of all the players' first and last names along with their team name and city
-<img />
+<img width="436" height="536" alt="Screenshot 2026-04-03 at 10 34 19 AM" src="https://github.com/user-attachments/assets/396e55cb-9ac1-4fa4-a8af-95360023347f" />
+
 
 Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
 
 9) Simple Query #9 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
-<img />
+<img width="563" height="422" alt="Screenshot 2026-04-03 at 10 34 59 AM" src="https://github.com/user-attachments/assets/f457b5ad-5a93-4b46-bb83-e58128001f1d" />
+
 
 Simple Query #9 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
 
 10) Simple Query #10 uses a join on the Matches and Season tables and a join on Season and Stages tables to determine which matches fall into which season, and which season falls into which stage.
-<img />
+<img width="853" height="474" alt="Screenshot 2026-04-03 at 10 35 23 AM" src="https://github.com/user-attachments/assets/d5dda2c0-645d-4412-aea5-f484872f357e" />
+
 
 Simple Query #10 allows tournament managers, teams, and players to keep track of all the matches currently, previously, or will happen. As well as which seasons those matches occur in along with the stage the matches are in currently. 
 
