@@ -165,12 +165,12 @@ Simple Query #7 allows teams and or sponsers to see which players exceed the res
 
 Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
 
-8) Simple Query #9 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
+9) Simple Query #9 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
 <img />
 
 Simple Query #9 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
 
-8) Simple Query #10 uses a join on the Matches and Season tables and a join on Season and Stages tables to determine which matches fall into which season, and which season falls into which stage.
+10) Simple Query #10 uses a join on the Matches and Season tables and a join on Season and Stages tables to determine which matches fall into which season, and which season falls into which stage.
 <img />
 
 Simple Query #10 allows tournament managers, teams, and players to keep track of all the matches currently, previously, or will happen. As well as which seasons those matches occur in along with the stage the matches are in currently. 
