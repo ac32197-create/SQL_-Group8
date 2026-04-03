@@ -34,7 +34,9 @@ Tournaments has a one to one relationship with PrizePool because one tournament 
 
 The last part of the data model is a many to many relationship with tournament to venues to show where locations of the available are loacted. The assocative entity, TournamentVenue, shows the location and time of when the specific tournament will take place at.
 
-<img width="960" height="1190" alt="image" src="https://github.com/user-attachments/assets/b8a31c6e-0656-4aec-9ecd-c07d14cec222" />
+
+<img width="951" height="883" alt="image" src="https://github.com/user-attachments/assets/91206756-b557-4915-aeab-2788be009fe5" />
+
 
 ## Data Dictionary
 |Column|Desc|Data Type|Role|
