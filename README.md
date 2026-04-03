@@ -165,8 +165,10 @@ Complex Query #4 allows tournament managers to clearly categorize their sponsors
 Simple Query #5 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
 
 
-6) Simple Query #6 gives results on the teams that gives their different sponsors a ROI that is greater than 1.5
+6) Simple Query #6 uses multiple joins to lists the teams that has a sponsorROI greater than 1.5
 <img width="1070" height="856" alt="image" src="https://github.com/user-attachments/assets/60aa9d29-6cf7-4d02-9d68-25c8f0b1f5a1" />
+
+Simple Query #6  provides the benefit of showing the higher performing teams which can help sponsors maximize their profitability in future investments. Higher investments in a team can help teams grow their resources and potentially lead to more wins allowing the sponsor to reap even more benefits.
 
 
 7) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
