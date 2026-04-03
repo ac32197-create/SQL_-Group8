@@ -163,7 +163,7 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
 5) Complex Query #5 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
-<img width="870" height="892" alt="image" src="https://github.com/user-attachments/assets/36f1f2a3-917f-4857-98e7-5a8d15404d1d" />
+<img width="1575" height="797" alt="image" src="https://github.com/user-attachments/assets/f15dc656-d11a-4ca3-b99e-3ae83b60fd89" />
 
 Complex Query #5 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
 
