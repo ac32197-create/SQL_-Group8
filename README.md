@@ -136,7 +136,8 @@ The last part of the data model is a many to many relationship with tournament t
 
 
 ## Queries
-<img width="1282" height="350" alt="image" src="https://github.com/user-attachments/assets/9cfb18c6-d84a-4021-ae05-980aa7011687" />
+<img width="1296" height="332" alt="image" src="https://github.com/user-attachments/assets/3b07623e-b062-49bf-8c04-3a4240d1c59e" />
+
 
 1) Complex Query #1 creates a standings table for all teams particpating in tournaments across multiple years and various tournaments. Using a CASE-WHEN statement, the query tallies the total wins, losses, and draws that a team has had across its tenure. Additionally, the table is ordered so that the teams with the best record are at the top of the standings and those with the worst record are at the bottom.
 <img width="782" height="687" alt="image" src="https://github.com/user-attachments/assets/27c31888-4410-42d3-92d7-72d20d840f1f" />
