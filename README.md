@@ -159,14 +159,17 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
-6) Simple Query #5 gives results on the teams that gives their different sponsors a ROI that is greater than 1.5
-<img width="1152" height="852" alt="image" src="https://github.com/user-attachments/assets/f01bc516-b73c-4853-b68e-82599e0e2bcc" />
+5) Complex Query #5 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
+<img width="870" height="892" alt="image" src="https://github.com/user-attachments/assets/36f1f2a3-917f-4857-98e7-5a8d15404d1d" />
 
-8) 
+Simple Query #5 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
 
-9)
 
-10) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
+6) Simple Query #6 gives results on the teams that gives their different sponsors a ROI that is greater than 1.5
+<img width="1070" height="856" alt="image" src="https://github.com/user-attachments/assets/60aa9d29-6cf7-4d02-9d68-25c8f0b1f5a1" />
+
+
+7) Simple Query #7 uses a Where to return the first and last name of players whose team has more than 10 wins. Uses a subquery to filter by team.
 <img width="619" height="474" alt="Screenshot 2026-04-03 at 10 32 30 AM" src="https://github.com/user-attachments/assets/f432aa78-4e13-48dc-b875-c6bc7739afef" />
 
 
@@ -178,12 +181,7 @@ Simple Query #7 allows teams and or sponsers to see which players exceed the res
 
 Simple Query #8 allows tournament managers to locate players easily and identify which team and city the players originate from ordered alphabetically by last names. This helps them with booking flights or rooms, locating their regions, and sorting them in groups.
 
-9) Simple Query #9 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
-<img width="870" height="892" alt="image" src="https://github.com/user-attachments/assets/36f1f2a3-917f-4857-98e7-5a8d15404d1d" />
-
-
-Simple Query #9 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
-
+9) 
 10) Simple Query #10 uses a join on the Matches and Season tables and a join on Season and Stages tables to determine which matches fall into which season, and which season falls into which stage.
 <img width="853" height="474" alt="Screenshot 2026-04-03 at 10 35 23 AM" src="https://github.com/user-attachments/assets/d5dda2c0-645d-4412-aea5-f484872f357e" />
 
