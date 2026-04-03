@@ -164,11 +164,10 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
-5) Complex Query #5 uses a left join on the Players and Teams tables to return a list of all teams with their player count. It sorts it all with a group by and puts it in order depending on which teams have a higher or lower player count.
-<img width="1575" height="797" alt="image" src="https://github.com/user-attachments/assets/f15dc656-d11a-4ca3-b99e-3ae83b60fd89" />
+5) Complex Query #5 What teams have an above average win rate and what is their total prize pool amount?
+<img width="1458" height="808" alt="image" src="https://github.com/user-attachments/assets/55863659-b238-4dab-9ba9-c8f86a2354fa" />
 
-Complex Query #5 allows tournament managers to check the total count of players easily, by simply adding up all the teams' player count. It helps keep them organized as well as do attendence much quicker.
-
+Complex Query #5 shows the teams that are doing the best based on their win rates, which correlates with an increase in their prize pool money. This result can be beneficial to understanding the best teams in the league and showing how much money they earned. This can help sponsors decide if they want to invest in the teams, showing how well the teams are doing relative to other teams that are performing well.
 
 6) Simple Query #6 uses multiple joins to lists the teams that has a sponsorROI greater than 1.5
 <img width="1070" height="856" alt="image" src="https://github.com/user-attachments/assets/60aa9d29-6cf7-4d02-9d68-25c8f0b1f5a1" />
