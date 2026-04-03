@@ -165,7 +165,8 @@ Complex Query #3 lets tournament managers to clearly see which venues are suitab
 Complex Query #4 allows tournament managers to clearly categorize their sponsors by the contributions that they make to each tournament. As a result, they can take this information and be able to roughly guess what they expect from each sponsor in future tournaments, helping them establish a prize pool. Additionally, they can clearly pinpoint which sponsors clearly have ample funds, allowing them to determine which sponsors to approach when in need of more funds. Finally, by establishing a tier system, this motivates the sponsors to want to donate more money in order to increase their sponsorship tier status.
 
 5) Complex Query #5 What teams have an above average win rate and what is their total prize pool amount?
-<img width="1458" height="808" alt="image" src="https://github.com/user-attachments/assets/55863659-b238-4dab-9ba9-c8f86a2354fa" />
+<img width="1366" height="780" alt="image" src="https://github.com/user-attachments/assets/49411331-d9d9-4414-9ff0-45268218c424" />
+
 
 Complex Query #5 shows the teams that are doing the best based on their win rates, which correlates with an increase in their prize pool money. This result can be beneficial to understanding the best teams in the league and showing how much money they earned. This can help sponsors decide if they want to invest in the teams, showing how well the teams are doing relative to other teams that are performing well.
 
